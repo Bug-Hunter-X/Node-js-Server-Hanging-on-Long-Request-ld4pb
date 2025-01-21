@@ -1,0 +1,3 @@
+# Node.js Server Hanging on Long Request
+
+This repository demonstrates a common issue in Node.js applications where long-running operations block the event loop, causing the server to hang and stop responding to new requests.  The example uses a simple HTTP server that simulates a long-running task. The solution demonstrates the use of asynchronous operations to prevent blocking and improve server responsiveness.
